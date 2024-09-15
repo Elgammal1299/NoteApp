@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:note_app/core/theme/theme_color.dart';
 import 'package:note_app/feature/home/ui/home_screen.dart';
 
 void main() {
@@ -10,9 +11,10 @@ class NoteApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: const HomeScreen(),
+      theme: ThemeApp.themeDataLight(),
     );
   }
 }
