@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:note_app/core/theme/theme_color.dart';
-import 'package:note_app/feature/home/ui/home_screen.dart';
+import 'package:note_app/feature/home/ui/homeScreen.dart';
 
 void main() {
   runApp(const NoteApp());
